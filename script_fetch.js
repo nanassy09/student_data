@@ -28,7 +28,7 @@ fetch("students_rows.json")
         <td>${index + 1}</td>
         <td>${student.nis}</td>
         <td>${capitalizeName(student.name)}</td>
-        <td>${classMap[student.class_id] || "3e27b83d-0a7a-4a3c-a428-5e8812869e99"}</td>
+        <td>${classMap[student.class_id] || "XI-C1"}</td>
       `;
 
       tbody.appendChild(row);
@@ -42,5 +42,6 @@ fetch("students_rows.json")
       </tr>
     `;
   });
+
 
 
